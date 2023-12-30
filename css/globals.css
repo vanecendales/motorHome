@@ -1,10 +1,79 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=Dosis:700,600|Mulish:500,700,600,400|Montserrat:500");
-/* The following line is used to measure usage of this code. You can remove it if you want. */
-@import url("https://px.animaapp.com/655ca2fff1a1f77db0a7a844.655ca301f1a1f77db0a7a847.MwbdXc8.hcp.png");
 
+:root { 
+  --black: #000000;
+  --black-2: #00000080;
+  --blanco: #ffffff;
+  --blue: #3b91e5;
+  --blue-zodiac: #0b284c;
+  --celeste: #cccccc;
+  --deep-blue: #173c6a;
+  --denim: #306fc8;
+  --gray-nurse: #e7e8ea;
+  --light-blue: #c2dffc;
+  --naranja: #fc7649;
+  --picton-blue: #3fa0ff;
+  --verde-oscuro: #2c798a;
+  --white: #ffffff;
+  --zircon: #f4f5ff;
+  --border: 1px solid var(--celeste);
+  --radius: 16px;
+  --font-size-70px: 70px;
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-xxl: 30px;
+  --font-size-xxxl: 36px;
+ 
+  --font-family-dosis: "Dosis", Helvetica!important;
+  --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-mulish: "Mulish", Helvetica;
+}
 
+img {
+  width: 100%;
+}
 
+h1,h2,h3,h4,h5,h6 { 
+  color: var(--deep-blue);
+  font-family: var(--font-family-dosis);
+}
+
+h1{
+  color: var(--deep-blue);
+  font-family: var(--font-family-dosis);
+font-size: 4.3rem!important;
+font-weight: 700;
+}
+h3{
+  color: var(--deep-blue);
+  font-family: var(--font-family-dosis);
+font-size: 2.3rem;
+font-weight: 600;
+}
+h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+body{
+
+  font-size:16px;
+  font-family: var(--font-family-dosis);
+
+  
+}
+div{
+  font-family: var(--font-family-dosis);
+}
+p{
+color:var(--deep-blue);
+line-height: 26px;
+font-size: 1rem;
+font-family: var(--font-family-dosis);
+}
 .screen a {
   display: contents;
   text-decoration: none;
@@ -25,3 +94,162 @@
 * {
   box-sizing: border-box;
 }
+
+.titulos-header {
+  font-family: var(--font-family-dosis);
+  font-size: var(--font-size-70px);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.titulo-encabezado {
+  font-family: var(--font-family-dosis);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.cuerpo---parrafos {
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.process-tags {
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.mulish-semi-bold-blue-zodiac-18px {
+  color: var(--blue-zodiac);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.mulish-medium-biscay-16px {
+  color: var(--deep-blue);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.mulish-medium-black-12px {
+  color: var(--black-2);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.dosis-semi-bold-white-20px {
+  color: var(--blanco);
+  font-family: var(--font-family-dosis);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.mulish-medium-black-12px-2 {
+  color: var(--black-2);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.dosis-semi-bold-biscay-30px {
+  color: var(--deep-blue);
+  font-family: var(--font-family-dosis);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-medium-denim-12px {
+  color: var(--denim);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.montserrat-medium-biscay-10px {
+  color: var(--deep-blue);
+  font-family: var(--font-family-montserrat);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.montserrat-medium-biscay-12px {
+  color: var(--deep-blue);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.mulish-normal-tropical-blue-14px {
+  color: var(--light-blue);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*form*/
+
+.div-form-group label{
+  color: var(--deep-blue);
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 500;
+}
+
+input{
+  align-self: stretch;
+    background-color: var(--zircon);
+    font-family: var(--font-family-mulish);
+    border: 1px solid;
+    border-color: var(--gray-nurse);
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 1px #00000013;
+    display: flex;
+    height: 40px;
+    width: 100%;
+
+}
+::placeholder{
+  padding:0 10px;
+  font-family: var(--font-family-mulish);
+  color:gray;
+  font-size:12px;
+}
+
+textarea{
+  font-family: var(--font-family-mulish);
+  background-color: var(--zircon);
+  border: 1px solid;
+  border-color: var(--gray-nurse);
+  border-radius: 9.97px;
+  box-shadow: inset 0px 1px 1px #00000013;
+  height: 200px;
+  width: 100%;
+  padding-top:1rem;
+  color:gray;
+  font-size:12px;
+  margin-bottom:1rem
+}
+
+

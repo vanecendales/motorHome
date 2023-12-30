@@ -1,0 +1,126 @@
+@media all and (min-width: 1200px) {
+    img.vector-4 {
+      display: none;
+    }
+ 
+  }
+
+@media all and (max-width: 1199px) {
+
+    .header-2 {
+        height: 70vh;
+      
+      }
+    h1{
+        font-size: 3.4rem!important;
+      }
+      h4{
+        font-size: 1.2rem;;
+      }
+      img.vector-4 {
+        display: block;
+    }
+    .welcome-to-iceland-2 {
+        font-size: 4.3rem;
+        line-height: 4.8rem;
+    }  
+    .home-img{        display: none;
+    }
+    .contenido-1, .contenido-2{
+      padding: 0px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home-img {
+        display: none;
+    }
+  
+    .menu-button-1{
+      display: none!important;
+    }
+  
+    .form-address {
+        display: grid;
+      grid-template-areas:
+      "informacion"
+      "formulario";
+   
+        }
+    .address {
+          display: none;
+      }
+      .address-mobile {
+        display:block;
+      }
+
+      .home-img-mobile {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+      .support p {
+        font-size: 1.1rem;
+    }
+
+
+      .support {
+        display: grid;
+        grid-template-areas:
+            "support-img support-title"
+            "support-img support-address";
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: 1fr 1.5fr;
+        align-items: center;
+  
+      }
+ 
+      .footer-2, .primera-seccion-2 {
+        padding:1px;
+        justify-content: space-evenly;
+      }
+    }
+
+    @media all and (max-width: 705px) {
+ 
+        .primera-seccion-2 {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 2rem;
+        }
+
+        .frame-1000003812-1 {
+            display: none;
+        }
+        .logo-mobile {
+            display: block;
+            width: auto;
+        }
+
+        .footer-contenido-1 {
+            display: grid;
+            text-align: left;
+            width: 100%;
+        }
+
+        .social-2 {
+            align-items: center;
+            gap: 16px;
+            justify-content: start;
+            margin-bottom:1rem;
+        }
+        .frame-1000003811-2 {
+            align-items: flex-start;
+            display: inline-flex;
+            flex: 0 0 auto;
+            flex-direction: column;
+            gap: 20px;
+            position: relative;
+        }
+        .frame-1000003811-2 {
+            align-items: flex-start;
+        }
+      }
